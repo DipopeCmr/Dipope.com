@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog with me</title>
+    <link rel="apple-touch-icon-precomposed" size="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" href="icon/apple-touch-icon.png">
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/5c6098b6a5.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <!--google fonts:
+        noto snas jp regular:400
+        Crimson Text semi bold 600
+    -->
+
+    <!--Barre de navigation-->
+
+    <nav class="nav">
+        <h1 class="logo"><img src="image/ms-icon-150x150.png" alt=""></h1>
+        <button class="button" onclick="afficher();"><i class="fa-solid fa-bars" class="Menu"></i></button>
+       
+    </nav>
+    <section class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#media">Contact</a>
+    </section>
+
+   <!--Fin de barre de navigation-->
+   <!--header-->
+
+   <section class="articles">
+        <div class="article">
+            <div class="left">
+                <img src="image/ordi-1.jpg" alt="" width="100%">
+            </div>
+            <div class="right">
+                <p class="date">Juin,30,2022</p>
+                <h1 class="title">Pourquoi choisir une agence de création de site web au Cameroun?</h1>
+                <p class="description">
+                 De nombreuses entreprises ont été contraintes de fonctionner en ligne en raison de l'épidémie du virus Corona.Tout entrepreuneur souhaite que ses activités se déroulent sans heurts et une plateforme internet peut l'y aider.Cela peut être un défi pour les entreprises qui n'ont jamais eu d'opération commerciales sur internet.C'est là que l'agence de création de site web Dipopè entre en jeux.
+                </p>
+                <p class="auteur">Moussinga Muaye</p>
+            </div>
+        </div>
+        <div class="article">
+            <div class="left">
+                <img src="image/lumiere.jpg" alt="" width="100%">
+            </div>
+            <div class="right">
+                <p class="date">Juin,30,2022</p>
+                <h1 class="title">Comment choisir la meilleure agence de création de site web au Cameroun?</h1>
+                <p class="description">
+                    La création d'un site web est un élement important du développement de toute agence.Elle permet de décrire la structure complète de l'agence.Une bonne création à un impact positif sur l'entreprise.De ce fait les élements nécessaire pour votre choix sont:la disponibilité,l'efficacité,la confidentialité.
+                </p>
+                <p class="auteur">Moussinga Muaye</p>
+            </div>
+        </div>
+        <div class="article">
+            <div class="left">
+                <img src="image/pourquoi.jpg" alt="" width="100%">
+            </div>
+            <div class="right">
+                <p class="date">Juin,30,2022</p>
+                <h1 class="title">Pourquoi choisir Dipopè pour la création de votre site web au Cameroun?</h1>
+                <p class="description">
+                 Voici 03 qualités qui vous aideront à comprendre pourqupo Dipopè est une excellente agence de création de site web pour votre entreprise:Une équipe de choc ,nous sommes composés d'un duo aux talents et expertises variés,une relation reposant sur des règles d'éthiques,il est important que notre culture corresponde à celle de nos clients.
+                </p>
+                <p class="auteur">Moussinga Muaye</p>
+            </div>
+        </div>
+   </section>
+
+   <!--fin du header-->
+   <!--Pied de page-->
+
+   <footer>
+        <h2 class="copyright">Copyright &copy; By Dipopè Cameroun</h2>
+        <div class="media" id="media">
+            <a href="https://www.instagram.com/dipopecmr/?hl=fr"><img src="image/Instagram.jpg" alt=""></a>
+        <a href="https://web.facebook.com/profile.php?id=100082878990609"><img src="image/fb.jpg" alt=""></a>
+        <a href="https://wa.me/+237657679938"><img src="image/What.png" alt=""></a>
+        <a href="mailto:dibobecmr@gmail.com?subject=Indiquer  les informations liées au site web que vous souhaitez(exemple:nom du site web et type)"><img src="image/Gmail.jpg" alt=""></a>
+        </div>
+   </footer>
+
+   <!--Fin du pied de page-->
+   <!--JS-->
+   <script lang="javascript">
+
+        var  menu=document.querySelector(".navigation");
+        function afficher(){
+            
+            menu.classList.toggle("lock");
+        }
+
+   </script>
+   <!---->
+</body>
+</html>
+

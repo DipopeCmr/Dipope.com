@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Dipopè Cameroun</title>
+    <link rel="apple-touch-icon-precomposed" size="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" href="icon/apple-touch-icon.png">
+    <script src="https://kit.fontawesome.com/5c6098b6a5.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+     <!--Barre de navigation-->
+
+     <nav class="nav">
+        <h1 class="logo"><img src="image/ms-icon-150x150.png" alt=""></h1>
+        <button class="button" onclick="afficher();"><i class="fa-solid fa-bars" class="Menu"></i></button>
+       
+    </nav>
+    <section class="navigation">
+            <a href="index.html">Home</a>
+            <a href="index2.html">Blog</a>
+            <a href="#media">Contact</a>
+    </section>
+
+   <!--Fin de barre de navigation-->
+   <!--Description-->
+   <header class="header"><h1 class="Propos">About Us</h1></header>
+
+   <!--Case de description-->
+   <div class="info">
+    <p class="question">Qui sommes nous?</p>
+    <h1 class="réponse">Dipopè Cameroun est une agence de création de site web au Cameroun animée par une équipe de spécialiste qui ont une passion à rendre votre buisness meilleure.DipopèCmr,un lieu où nous garantissons la satisfaction du client chaque jour!</h1>
+   </div>
+
+   <div class="info">
+    <p class="question">Ce que nous visons</p>
+    <h1 class="réponse">Nos objectifs sont directement liés à vos résultats,tout d'abord améliorer les ventes sur votre site web,développer votre entreprise,créer et améliorer votre potentiel marketing et tout ceci dans les moindres coût.</h1>
+   </div>
+
+   <div class="info" id="last">
+    <p class="question">Nos engagements</p>
+    <h1 class="réponse">La qualité de service,l'innovation(plus de créativité pour un meilleur confort),le sens des responsabilités(respect des engagements),le contrôle régulier de la qualité du travail,l'éthique(des valeurs,pour le respect de vos intérêts</h1>
+   </div>
+   <!--fin des cases-->
+
+   <!--peid de page-->
+   <footer>
+    <h2 class="copyright">Copyright &copy; By Dipopè Cameroun</h2>
+    <div class="media" id="media">
+        <a href="https://www.instagram.com/dipopecmr/?hl=fr"><img src="image/Instagram.jpg" alt=""></a>
+        <a href="https://web.facebook.com/profile.php?id=100082878990609"><img src="image/fb.jpg" alt=""></a>
+        <a href="https://wa.me/+237657679938"><img src="image/What.png" alt=""></a>
+        <a href="mailto:dibobecmr@gmail.com?subject=Indiquer  les informations liées au site web que vous souhaitez(exemple:nom du site web et type)"><img src="image/Gmail.jpg" alt=""></a>
+    </div>
+</footer>
+   <!--Fin du pied de page-->
+
+
+
+    <!--JS-->
+    <script lang="javascript">
+
+        var  menu=document.querySelector(".navigation");
+        function afficher(){
+            
+            menu.classList.toggle("lock");
+        }
+
+   </script>
+   <!---->
+    
+</body>
+</html>
